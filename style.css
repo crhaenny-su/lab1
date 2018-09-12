@@ -1,13 +1,14 @@
-html, body{
-    margin:0;
+html,
+body {
+    margin: 0;
     padding: 0;
 }
 
-h1{
+h1 {
     margin: 0;
 }
 
-.header{
+.header {
     height: 60px;
     padding: 0 24px;
     background-color: maroon;
@@ -15,35 +16,40 @@ h1{
     line-height: 60px;
 }
 
-.header ul{
+.header ul {
     float: right;
-    list-style:  none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-
-.header li{
+.header li {
     float: left;
 }
 
 .header a {
-    color: #fff
-    text-decoration: none;
+    color: #fff text-decoration: none;
 }
 
-.content{
+.content {
     width 70%;
     bacground-color: #efefef;
     float: left;
     min-height: 500px;
 }
 
-.sidebar{
+.sidebar {
     width: 30%;
     float: left;
     cackground-color: #454647;
     color: #fff;
     min-height: 500px;
+}
 
+.blog_post {
+    margin: 10px;
+    background-color: white;
+    border-color: lightgrey;
+    border-radius: 25px;
+    padding: 10px;
 }
